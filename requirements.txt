@@ -2,4 +2,4 @@ Flask
 cohere
 uuid
 flask_cors
-dotenv
+python-dotenv
