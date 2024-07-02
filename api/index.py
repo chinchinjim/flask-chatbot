@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-CORS(app, resources={r"/chatbot_response": {"origins": "*", "methods": ["GET", "POST", "PUT", "DELETE", "PATCH", "OPTIONS"], "allow_headers": "*"}})
+CORS(app, resources={r"/chatbot_response": {"origins": "https://personal-website-mqda4dd5c-chinchinjims-projects.vercel.app"}})
 
 load_dotenv()
 
