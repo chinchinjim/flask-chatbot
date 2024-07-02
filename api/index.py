@@ -1,12 +1,12 @@
 import cohere
 import uuid
 from flask import Flask, jsonify, request
-# from flask_cors import CORS
+from flask_cors import CORS
 import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-# CORS(app, resources={r"/chatbot_response": {"origins": "https://personal-website-mqda4dd5c-chinchinjims-projects.vercel.app"}})
+CORS(app)
 
 load_dotenv()
 
