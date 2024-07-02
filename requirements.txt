@@ -2,5 +2,4 @@ Flask==3.0.3
 cohere
 uuid
 flask_cors
-os
 dotenv
