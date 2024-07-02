@@ -6,7 +6,7 @@ import os
 from dotenv import load_dotenv
 
 app = Flask(__name__)
-CORS(app) 
+CORS(app, resources={r"/chatbot_response": {"origins": "*"}})
 load_dotenv()
 
 # Replace with your actual Cohere API key
